@@ -5,5 +5,8 @@ g++ hello.cpp -o hello
 
 Use cmake
 ```
-cmake . && make && ./hello
+cd .../cmake-playground/build
+cmake ../
+make
+./hello
 ```
